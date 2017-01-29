@@ -1,0 +1,15 @@
+These scripts are used for parsing data from Scouts of finland membership register Kuksa
+
+Selenium for Python and plotly are required and xlrd. All can be installed from pip.
+
+Scripts:
+* kuksa_fetch.py
+  * Fetches data from kuksa, all members that joined during a month and year, with specifying their birth year and sex
+  * Converts excel to csv
+
+* kuksa_clean_columns.py:
+  * Cleans out columns not specified from excel
+
+* plot_bar.py:
+  * Plot per month all scouts that have joined in barchart by sexes and agegroups
+  * Does this district and city wide
